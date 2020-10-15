@@ -1,0 +1,48 @@
+.btn {
+    display: inline-block;
+    padding: 1vw 3vw;
+    font-size: 3vw;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 3vw;
+    box-shadow: 0 1vw rgba(153, 153, 153, 0.8);
+}
+
+.btn:hover {background-color: #3e8e41}
+
+.btn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 0.5vw #666;
+    transform: translate(-50%, -50%) translateY(4px);
+    -ms-transform: translate(-50%, -50%) translateY(4px);
+}
+
+.custom-font {
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.grad-back{
+    background: linear-gradient(to top right, #33ccff 0%, #ff99cc 100%);
+}
+
+.go-full-screen-box {
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    overflow: hidden;
+}
